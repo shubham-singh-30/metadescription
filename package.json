@@ -1,0 +1,25 @@
+{
+  "name": "microlink",
+  "version": "1.0.0",
+  "description": "a little test app using microlink",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "metascraper": "^5.21.7",
+    "metascraper-date": "^5.21.7",
+    "metascraper-description": "^5.21.7",
+    "metascraper-image": "^5.21.7",
+    "metascraper-media-provider": "^5.21.8",
+    "metascraper-title": "^5.21.7",
+    "metascraper-url": "^5.21.7",
+    "metascraper-video": "^5.21.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
